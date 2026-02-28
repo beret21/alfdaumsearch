@@ -59,9 +59,11 @@ def main(wf):
 
     res_json = wf.cached_data('d%s_%s' % (dic_req, args), wrapper, max_age=30)
 
-    for txt in res_json['items'][dic_req]:
+    for txt in res_json.get('items', {}).get(dic_req, []):
         if len(txt['item']) > 0:
             stxt = txt['item'].split('|')
+            if len(stxt) < 3:
+                continue
             it = wf.add_item(
                 title='%s  %s' % (stxt[1], stxt[2]),
                 subtitle='Searching Daum%s for \'%s\'' % (dic_req, stxt[1]),
