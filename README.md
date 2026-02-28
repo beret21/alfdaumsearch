@@ -20,13 +20,8 @@ alfdaumsearch
 ------
 
 - [releases](../../releases/latest) 페이지의 `alfdaumsearch.alfredworkflow`를 다운로드 받아서 실행한다.
-
-- MacOS 12.3 이상의 경우
-  - python3 설치
-    - `brew install python`
-    - `xcode-select --install`
 - Alfred 4.0 이상 필요
-- Python 3 이상 필요
+- Python 3 이상 필요 (macOS Tahoe 이상에서는 기본 포함)
 - macOS Tahoe 26.4에서 테스트 및 동작 확인
 
 
