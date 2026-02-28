@@ -239,7 +239,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching Jpndic for {query}</string>
+				<string>Searching Kor-Jpn dic for {query}</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
