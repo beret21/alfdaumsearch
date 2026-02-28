@@ -75,7 +75,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Jinuk Baek</string>
+	<string>Yoonseok Jang</string>
 	<key>description</key>
 	<string>Daum Search Kit</string>
 	<key>disabled</key>
@@ -433,6 +433,6 @@
 	<key>version</key>
 	<string>{{VERSION_INFO}}</string>
 	<key>webaddress</key>
-	<string>https://www.jinukbaek.com/blog/ko/archives/511</string>
+	<string>https://github.com/beret21/alfdaumsearch</string>
 </dict>
 </plist>
